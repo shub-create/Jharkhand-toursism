@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Slab', serif;
+
+}
+header{
+    width: 100%;height:100vh;
+    background-image:linear-gradient(rgba(4, 48, 54, 0.4),#bdb2b233), url("../images/forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background:rgba(55, 109, 77, 0.705);
+    color: white;
+    display: flex;justify-content: space-between;
+    align-items: center;text-transform: uppercase;
+    
+}
+.logo{
+    width: 25%;text-align: center;
+    
+}
+.menu{
+    width: 40%;display:flex;justify-content: space-around;
+    text-shadow: 2px 2px 2px black;
+}
+.menu a{
+    text-decoration: none;
+    width: 25%;color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+main{
+    width: 100%;
+    height:85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+h3{
+    font-size: 35px;font-weight: 900;letter-spacing: 3px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+main h1{
+    font-size: 65px;font-weight: 1500;letter-spacing:1px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin: 40px 0px 20px 0px ;
+}
+.logo span{
+    color: red;
+    
+}
+.logo h1{
+    font-size: 33px;font-weight: 1500;letter-spacing:1px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;}
+
+
+.uu{  font-size: 30px;font-weight :2500;letter-spacing:1px;
+    text-shadow: 3px 3px 3px black;
+    margin-top:50px;
+    margin-bottom: 40px;
+    color: rgb(168, 241, 243);
+
+}
+.change_content:after{
+    animation: changetext infinite 6s linear;
+    content: " ";
+    color: rgb(26, 223, 141);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+
+
+}
+@keyframes changetext{
+    0%{content:"ranchi";}
+    30%{content:"bokaro";}
+    50%{content:"dhanbad";}
+    75%{content:"jamshedpur";}
+    100%{content:"deoghar";}
+}
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-decoration: none;  
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+.b1{
+    background: white;
+    color: black;
+    text-shadow: 1px 0px 1px black;
+    margin-right: 10px;
+}
+.b2{
+    background:rgba(55, 109, 77, 0.705);
+    color: white;
+    text-shadow: 1px 0px 1px black;
+    padding: 12px 50px;
+
+}
+.b1:hover{
+    background:rgba(55, 109, 77, 0.705);
+    color: white;
+
+}
+.b2:hover{
+    background: white;
+    color: black;
+
+}
